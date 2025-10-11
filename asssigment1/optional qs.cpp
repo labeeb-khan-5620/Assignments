@@ -19,5 +19,7 @@ a=a-b;
 
 cout << "value of first variable:"<<a<<endl;
 cout<<"value of second variable:"<<b;
+  //for printing the swapped values of variable.
+
 
 }
