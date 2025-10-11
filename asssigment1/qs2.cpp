@@ -18,8 +18,8 @@ int main()
     cout<<"Enter marks of subject 5:";
     cin>>sub5;
     //taking input of marks from the user and storing it in the respected variables.
-    int sum;
-    float percentage;
+   
+    float percentage ,sum;
 
     //declared two variables to store sum of the marks and to store the percentage of the student.
     sum=sub1+sub2+sub3+sub4+sub5;
@@ -59,3 +59,4 @@ cout<<left<<setw(20)<<sum<<left<<setw(20)<<"500"<<left<<setw(15)<<percentage<<le
 
 
 }
+
