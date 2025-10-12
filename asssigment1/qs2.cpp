@@ -62,4 +62,6 @@ cout<<left<<setw(20)<<sum<<left<<setw(20)<<"500"<<left<<setw(15)<<percentage<<le
 
 
 }
+    return 0;
 }
+
