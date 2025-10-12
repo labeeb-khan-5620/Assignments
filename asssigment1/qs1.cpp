@@ -40,6 +40,9 @@ int main()
     cout<<"quotient without decimals:"<<quot_int<<"\n";
     // we printed the sum,product ,difference and quotient with integer data type
 
+    return 0;
+
+
 
 
 
