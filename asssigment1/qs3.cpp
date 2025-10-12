@@ -39,7 +39,8 @@ else
 cout<<"the numbers are not equal."<<endl;
 //condition which can check that weather all numbers are equal or not .
 
-    
+    return 0;
+
 
 
 }
