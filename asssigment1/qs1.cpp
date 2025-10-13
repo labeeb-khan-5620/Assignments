@@ -27,17 +27,19 @@ int main()
     cout<<"product:"<<prod<<"\n";
     cout<<"quotient:"<<quot<<"\n";
     //we printed the outputs with exactly three numbers after the decimal .
-    int sum_int,prod_int,diff_int,quot_int;
+    int num1_int= (int)num1,num2_int=(int)num2, sum2,prod2,diff2,quot2;
+     
     // we have declared integer type values to store the answers as integer.
-    sum_int=sum;
-    prod_int=prod;
-    diff_int=diff;
-    quot_int=quot;
+    
+    sum2=num1_int+num2_int;
+    diff2=num1_int-num2_int;
+    prod2=num1_int*num2_int;
+    quot2=num1_int/num2_int;
     //we stored the values of floating variables into integer data type variables so the decimal will be automatically removed and the output will be a integers.
-    cout<<"\n sum without decimals:"<<sum_int<<"\n";
-    cout<<"difference without decimals:"<<diff_int<<"\n";
-    cout<<"product without decimals:"<<prod_int<<"\n";
-    cout<<"quotient without decimals:"<<quot_int<<"\n";
+    cout<<"\n sum without decimals:"<<sum2<<"\n";
+    cout<<"difference without decimals:"<<diff2<<"\n";
+    cout<<"product without decimals:"<<prod2<<"\n";
+    cout<<"quotient without decimals:"<<quot2<<"\n";
     // we printed the sum,product ,difference and quotient with integer data type
 
     return 0;
@@ -47,3 +49,4 @@ int main()
 
 
 }
+
